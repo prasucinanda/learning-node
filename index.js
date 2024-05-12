@@ -2,7 +2,7 @@ const Joi = require("joi");
 const express = require("express");
 const app = express();
 
-//app.request(express.json());
+app.request(express.json());
 
 const genres = [
   { id: 1, genre: "horor" },
